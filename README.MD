@@ -1,5 +1,4 @@
 ## Shopping cart - ReactJS test component.
-----
 
 Component setup:
 
