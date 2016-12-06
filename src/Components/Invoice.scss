@@ -1,0 +1,60 @@
+@import 'vars';
+
+* {
+  transition: all .2s;
+}
+
+.invoice {
+  margin-top: 30px;
+  min-height: 200px;
+  border-radius: 5px;
+  background-color: #e7e3ea;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  transform-origin: 50% 50%;
+  animation: animationFrames ease 1s;
+  animation-iteration-count: 1;
+}
+
+.invoice-table {
+  width: 100%;
+  text-align: left;
+  border-collapse:collapse;
+}
+
+.invoice-head,
+.invoice-foot {
+  background-color: #EDEAEF;  
+}
+
+.invoice__header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  color: #414147;
+}
+
+.invoice__td,
+.invoice__th {
+  padding: 20px 30px;
+}
+
+.invoice__sum {
+  padding: 30px 30px;
+  text-align: center;
+}
+
+.invoice__link-holder {
+  text-align: center;
+}
+
+.invoice__link {
+  text-decoration: underline;
+  color: $font-color;
+  display: inline-block;
+  padding: 20px 20px;
+
+  &:hover {
+    color: cadetblue;
+    text-decoration: none;
+  }
+}
